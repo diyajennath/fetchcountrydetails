@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Details Fetcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Country Details Fetcher</h1>
+    <input type="text" id="countryInput" placeholder="Enter country name">
+    <button onclick="fetchCountryDetails()">Fetch Country Details</button>
+
+    <!-- Country Details Display Section -->
+    <div id="countryDetails">
+        <img id="flag" src="" alt="Country Flag" style="display: none; width: 100px; margin-top: 20px;">
+        <p id="countryName"></p>
+        <p id="population"></p>
+        <p id="currency"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
